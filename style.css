@@ -1,0 +1,58 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+/* imp 3 lines */
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*https://css-tricks.com/perfect-full-page-background-image/*/
+
+h1{
+  color: white;
+
+ 
+}
+/*imp hr tag code*/
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-primary{
+  background: #F05F44;
+  border-color: #F05F44;
+  --bs-btn-hover-bg: #ee4b08; 
+    --bs-btn-hover-border-color: #ee4b08;
+    --bs-btn-hover-border-width: 4px;
+/* since below hover doesnt work this will work all 
+well in higher bootratap version   */
+/* because by default btn primary has blueish border in botstrap css file */
+}
+
+.btn-primary:hover {
+  background: orange;
+  border-color: orange;
+}
+/*above does not work in bootstrap 5 or higher version*/
+
+
+.btn-xl {
+  padding: 1rem 2rem; 
+} 
+.buffer{
+  height: 20rem;
+}
+
